@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(../assets/img/pasto.jpg);
+    background-size:cover;
+    background-repeat:round;
+    background-attachment:fixed ;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: aqua;
+    color: white;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 1;
+}
