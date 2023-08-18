@@ -4,43 +4,358 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../assets/img/pelota.webp" type="image/x-icon">
-    <link rel="stylesheet" href="../css/laliga.css">
-    <title>La liga</title>
+    <link rel="shortcut icon" href="./assets/img/pelota.webp" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Fúlbo 3.0</title>
 </head>
-<body class="container-fluid">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./argentina.html">Argentina</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./brasil.html">Brasil</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./españa.html">España</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./eeuu.html">MLS</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./inglaterra.html">Inglaterra</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./italia.html">Italia</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./libertadores.html">Copa Libertadores</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./champions.html">Champions League</a>
-        </li>
-    </ul>
-    
+<body class="container-fluid" >
+    <div class="34" name="novi" >
+        <div id="fixturein">
+            <table cellspacing="0">
+                <tbody id="principal">
+                    <tr>
+                        <td class="game-time"></td>
+                        <td class="game-t1"></td>
+                        <td class="game-r1"></td>
+                        <td class="game-r2"></td>
+                        <td class="game-t2"></td>
+                        <td class="game-info"></td>
+                    </tr>
+                    <tr class="tituloin">
+                        <td colspan="6">
+                            <a href="copaargentina">
+                                <img id="bandera" src="../assets/img/españa.jpg"> LA LIGA ESPAÑA
+                                <img id="bandera" src="../assets/img/españa.jpg"> 
+                            </a>
+                        </td>
+                    </tr> 
+                
+                    <tr class="tituloin">
+                        <td colspan="6">
+                            <a href="copaargentina">
+                                FECHA 2
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="tituloin">
+                        <td colspan="6">
+                            <a>
+                                Viernes 18 de Agosto
+                            </a>
+                        </td>
+                    </tr>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <tr id="34_34" name="nvp">
+        <td class="game-time" id="ti_34_34">14:30  
+            <img src="../assets/img/canales/espn.png">
+        </td>
+        <td class="game-t1">
+            <img src="/assets/img/liga española/mallorca.png">
+            <br>
+            <span class="datoequipo" id="t1_34_34">Mallorca</span>
+        </td>
+        <td class="game-r1" id="resu1_34_34">
+            <div class="rojas1" id="roj1_34_34"></div>
+            <span id="r1_34_34"></span>
+        </td>
+        <td class="game-r2" id="resu2_34_34">
+            <span id="r2_34_34"></span>
+            <div class="rojas2" id="roj2_34_34"></div>
+        </td>
+        <td class="game-t1">
+            <img src="/assets/img/liga española/villarreal.png">
+            <br>
+            <span class="datoequipo" id="t2_34_34">Villarreal</span>
+        </td>
+        <td class="game-info" id="for_34_34"></td>
+    </tr>
+    <tr class="goles" style="display:none" id="gole_34_34">
+        <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+    </tr>
+            
+    <tr id="34_39" name="nvp"> 
+        <td class="game-time" id="ti_34_39">16:30  
+            <img src="../assets/img/canales/directv.png">
+        </td>
+        <td class="game-t1">
+            <img src="/assets/img/liga española/valencia.png">
+            <br>
+            <span class="datoequipo" id="t1_34_39">Valencia</span>
+        </td>
+        <td class="game-r1" id="resu1_34_39">
+            <div class="rojas1" id="roj1_34_39"></div>
+            <span id="r1_34_39"></span>
+        </td>
+        <td class="game-r2" id="resu2_34_39">
+            <span id="r2_34_39"></span> <!-- goles -->
+            <div class="rojas2" id="roj2_34_39"></div> <!-- tarjetas roja -->
+        </td>
+        <td class="game-t1">
+            <img src="/assets/img/liga española/las_palmas.png">
+            <br>
+            <span class="datoequipo" id="t2_34_39">Las Palmas</span>
+        </td>
+        <td class="game-info" id="for_34_39"></td>
+        <tr class="goles" style="display:none" id="gole_34_34">
+            <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+        </tr>
+    </tr>
     
+                <tr class="tituloin">
+                    <td colspan="6">
+                        <a>
+                            Sabado 19 de Agosto
+                        </a>
+                    </td>
+                </tr>
+                <tr id="34_34" name="nvp">
+                    <td class="game-time" id="ti_34_34">21:00  
+                        <img src="../assets/img/canales/directv.png">
+                    </td>
+                    <td class="game-t1">
+                        <img src="/assets/img/liga española/real_sociedad.png">
+                        <br>
+                        <span class="datoequipo" id="t1_34_34">Real Sociedad</span>
+                    </td>
+                    <td class="game-r1" id="resu1_34_34">
+                        <div class="rojas1" id="roj1_34_34"></div>
+                        <span id="r1_34_34"></span>
+                    </td>
+                    <td class="game-r2" id="resu2_34_34">
+                        <span id="r2_34_34"></span>
+                        <div class="rojas2" id="roj2_34_34"></div>
+                    </td>
+                    <td class="game-t1">
+                        <img src="/assets/img/liga española/celta_de_vigo.png">
+                        <br>
+                        <span class="datoequipo" id="t2_34_34">Celta de Vigo</span>
+                    </td>
+                    <td class="game-info" id="for_34_34"></td>
+                </tr>
+                <tr class="goles" style="display:none" id="gole_34_34">
+                        <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+                </tr>
+
+                <tr id="34_34" name="nvp">
+                    <td class="game-time" id="ti_34_34">14:30  
+                        <img src="../assets/img/canales/directv.png">
+                    </td>
+                    <td class="game-t1">
+                        <img src="../assets/img/liga española/almeria.png">
+                        <br>
+                        <span class="datoequipo" id="t1_34_34">Almeria</span>
+                    </td>
+                    <td class="game-r1" id="resu1_34_34">
+                        <div class="rojas1" id="roj1_34_34"></div>
+                        <span id="r1_34_34"></span>
+                    </td>
+                    <td class="game-r2" id="resu2_34_34">
+                        <span id="r2_34_34"></span>
+                        <div class="rojas2" id="roj2_34_34"></div>
+                    </td>
+                    <td class="game-t1">
+                        <img src="../assets/img/liga española/Real_Madrid.png">
+                        <br>
+                        <span class="datoequipo" id="t2_34_34">Instituto (Cba)</span>
+                    </td>
+                    <td class="game-info" id="for_34_34"></td>
+                </tr>
+                <tr class="goles" style="display:none" id="gole_34_34">
+                        <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+                </tr>
+                        
+                <tr id="34_39" name="nvp"><td class="game-time" id="ti_34_39">16:30  
+                        <img src=""></td>
+                        <td class="game-t1">
+                            <img src="../assets/img/liga española/osasuna.png">
+                            <br>
+                            <span class="datoequipo" id="t1_34_39">Osasuna</span>
+                        </td>
+                        <td class="game-r1" id="resu1_34_39">
+                            <div class="rojas1" id="roj1_34_39"></div>
+                            <span id="r1_34_39"></span>
+                        </td>
+                        <td class="game-r2" id="resu2_34_39">
+                            <span id="r2_34_39"></span>
+                            <div class="rojas2" id="roj2_34_39"></div>
+                        </td>
+                        <td class="game-t1">
+                            <img src="../assets/img/liga española/bilbao.png">
+                            <br>
+                            <span class="datoequipo" id="t2_34_39">Athletic Bilbao</span>
+                        </td>
+                        <td class="game-info" id="for_34_39"></td>
+                </tr>
+
+            <tr class="tituloin">
+                <td colspan="6">
+                    <a>
+                        Domingo 20 de Agosto
+                    </a>
+                </td>
+            </tr>
+            <tr id="34_34" name="nvp">
+                <td class="game-time" id="ti_34_34">14:00  
+                    <img src="../assets/img/canales/directv.png">
+                </td>
+                <td class="game-t1">
+                    <img src="../assets/img/liga española/girona.png">
+                    <br>
+                    <span class="datoequipo" id="t1_34_34">Girona</span>
+                </td>
+                <td class="game-r1" id="resu1_34_34">
+                    <div class="rojas1" id="roj1_34_34"></div>
+                    <span id="r1_34_34"></span>
+                </td>
+                <td class="game-r2" id="resu2_34_34">
+                    <span id="r2_34_34"></span>
+                    <div class="rojas2" id="roj2_34_34"></div>
+                </td>
+                <td class="game-t1">
+                    <img src="../assets/img/liga española/getafe.png">
+                    <br>
+                    <span class="datoequipo" id="t2_34_34">Getafe</span>
+                </td>
+                <td class="game-info" id="for_34_34"></td></tr>
+                <tr class="goles" style="display:none" id="gole_34_34">
+                    <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+                </tr>
+
+            <tr id="34_39" name="nvp"><td class="game-time" id="ti_34_39">14:30  
+                <img src="../assets/img/canales/espn.png"></td>
+                <td class="game-t1">
+                    <img src="../assets/img/liga española/Barcelona.png">
+                    <br>
+                    <span class="datoequipo" id="t1_34_39">Barcelona F.C.</span>
+                </td>
+                <td class="game-r1" id="resu1_34_39">
+                    <div class="rojas1" id="roj1_34_39"></div>
+                    <span id="r1_34_39"></span>
+                </td>
+                <td class="game-r2" id="resu2_34_39">
+                    <span id="r2_34_39"></span>
+                    <div class="rojas2" id="roj2_34_39"></div>
+                </td>
+                <td class="game-t1">
+                    <img src="../assets/img/liga española/cadiz.png">
+                    <br>
+                    <span class="datoequipo" id="t2_34_39">Cadiz</span>
+                </td>
+                <td class="game-info" id="for_34_39"></td>
+            </tr>
+
+            <tr id="34_39" name="nvp"><td class="game-time" id="ti_34_39">14:30  
+                <img src="../assets/img/canales/directv.png"></td>
+                <td class="game-t1">
+                    <img src="../assets/img/liga española/betis.png">
+                    <br>
+                    <span class="datoequipo" id="t1_34_39">Real Betis</span>
+                </td>
+                <td class="game-r1" id="resu1_34_39">
+                    <div class="rojas1" id="roj1_34_39"></div>
+                    <span id="r1_34_39"></span>
+                </td>
+                <td class="game-r2" id="resu2_34_39">
+                    <span id="r2_34_39"></span>
+                    <div class="rojas2" id="roj2_34_39"></div>
+                </td>
+                <td class="game-t1">
+                    <img src="../assets/img/liga española/Atletico_de_Madrid.png">
+                    <br>
+                    <span class="datoequipo" id="t2_34_39">Atletico Madrid</span>
+                </td>
+                <td class="game-info" id="for_34_39"></td>
+                <tr class="goles" style="display:none" id="gole_34_34">
+                    <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+                </tr>
+        </tr>
+
+
+            <tr class="tituloin">
+                <td colspan="6">
+                    <a>
+                        Lunes 21 de Agosto
+                    </a>
+                </td>
+            </tr>
+        </a>
+    </td>
+</tr>
+<tr id="34_34" name="nvp">
+    <td class="game-time" id="ti_34_34">14:00  
+        <img src="../assets/img/canales/espn.png">
+    </td>
+    <td class="game-t1">
+        <img src="../assets/img/liga española/Alaves.png">
+        <br>
+        <span class="datoequipo" id="t1_34_34">Alaves</span>
+    </td>
+    <td class="game-r1" id="resu1_34_34">
+        <div class="rojas1" id="roj1_34_34"></div>
+        <span id="r1_34_34"></span>
+    </td>
+    <td class="game-r2" id="resu2_34_34">
+        <span id="r2_34_34"></span>
+        <div class="rojas2" id="roj2_34_34"></div>
+    </td>
+    <td class="game-t1">
+        <img src="../assets/img/liga española/sevilla.png">
+        <br>
+        <span class="datoequipo" id="t2_34_34">Sevilla</span>
+    </td>
+    <td class="game-info" id="for_34_34"></td>
+</tr>
+<tr class="goles" style="display:none" id="gole_34_34">
+    <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+</tr>
+
+<tr id="34_34" name="nvp">
+    <td class="game-time" id="ti_34_34">16:30  
+        <img src="../assets/img/canales/espn.png">
+    </td>
+    <td class="game-t1">
+        <img src="../assets/img/liga española/granada.png">
+        <br>
+        <span class="datoequipo" id="t1_34_34">Granada</span>
+    </td>
+    <td class="game-r1" id="resu1_34_34">
+        <div class="rojas1" id="roj1_34_34"></div>
+        <span id="r1_34_34"></span>
+    </td>
+    <td class="game-r2" id="resu2_34_34">
+        <span id="r2_34_34"></span>
+        <div class="rojas2" id="roj2_34_34"></div>
+    </td>
+    <td class="game-t1">
+        <img src="../assets/img/liga española/rayo.png">
+        <br>
+        <span class="datoequipo" id="t2_34_34">Rayo Vallecano</span>
+    </td>
+    <td class="game-info" id="for_34_34"></td>
+</tr>
+<tr class="goles" style="display:none" id="gole_34_34">
+    <td colspan="3" id="g1_34_34"></td><td colspan="3" id="g2_34_34"></td>
+</tr>
+        
+
+                <tr class="tituloin">
+                    <td colspan="6">
+                        <a>
+                            <tr class="goles" style="display:none" id="gole_34_39">
+                                <td colspan="3" id="g1_34_39"></td>
+                                <td colspan="3" id="g2_34_39"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                        <div id="abajo">
+                        <div id="botongral1">
+                                <a href="copaargentina">Copa Liga Argentina</a>
+                            </div>
+                        </div>
+                        <br style="clear: both">
+                    </div>
+                
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
