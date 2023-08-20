@@ -2,15 +2,569 @@
 * {
     margin: 0%;
     padding: 0%;
+}.rdo{
+    width: 50%;
 }
 
-body {
-    background-image: url(../assets/img/pasto.jpg);
-    background-size:cover;
-    background-repeat:round;
-    background-attachment:fixed ;
+.eqs2 {
+    float: left;
+    width: 390px;
+    margin-left:10px;
+    margin-top: 10px;
+    text-align: center;
+    background: #00612d;
+    color: #fff;
+    font-weight: 700;
+}
+.eqs {
+    margin-left:0; 
+background: none;   
+}
+#py2cont {
+    border: 1px solid black;
+    width:138px;
+    height:90px;
+    font-family: Roboto,sans-serif,Arial,Helvetica;
+    font-weight:bold;
+    background:#1c7852;
+    color:white;
+    font-size:13px;
+    text-align:center;
+    position:relative;
+    
 }
 
-@media (max-width: 576px){
+#py2esc1 img, #py2esc2 img {
+    width:50px;
+}
 
+#py2esc1 {
+    width:49%;
+    float:left;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size:11px
+}
+#py2esc2 {
+    width:49%;
+    float:right;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size:11px
+}
+
+#py2ida img, #py2ida0 img, #py2ida1 img, #py2vue img, #py2vue0 img, #py2vue1 img {
+    width:12px
+}
+
+#py2ida, #py2ida0, #py2ida1 {
+    float:left;
+    background:black; 
+    font-size:14px;
+    width:40%;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#py2vue, #py2vue0, #py2vue1 {
+    float:right;
+    background:black; 
+    font-size:14px;
+    width:40%;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#py2ida0, #py2vue0 {
+    background:#e9e9e9;
+    color:black;   
+}
+#py2ida1, #py2vue1 {
+    background:red;
+    color:white;   
+}
+
+.py2pen {
+    color:#1fe6ff;
+    font-size:12px
+}
+
+#py2nom {
+    text-shadow:1px 1px 1px black;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#py2restotal, #py2restotal0, #py2restotal1 {
+    margin:auto;
+    width:40%; 
+    background:black;   
+    font-size:14px;
+}
+
+#py2restotal0 {
+    background:#e9e9e9;
+    color:black;   
+}
+#py2restotal1 {
+    background:red;
+    color:white;   
+}
+
+.connector {
+    border: 2px solid #cec410;
+border-left-style: none;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  /* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    /* -webkit-font-feature-settings: none; */
+    -webkit-font-smoothing: antialiased;
+}
+ul{padding-inline-start:5px;padding-left:2px}
+.banner img{max-width:50%}
+body{width: 50%;;margin:auto;background:url(../assets/img/pasto.jpg);background-size:cover;
+    background-attachment:fixed ;font-family:Roboto,sans-serif,Arial,Helvetica;text-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}.game-t1 img,.game-t2 img{width:15px}#accordian{background:#171857;width:150px;color:#0f0909;margin:0;padding:0;float:left;font-size:14px;text-shadow:1px 1px 1px #000;}#abajo .material-icons{display:block}.material-icons #principal{width: 600px;padding-left:15px;padding-bottom:15px;float:left;min-height:600px}#accordian h3{font-size:16px;line-height:125%;background:#102100;margin-block-end:0;margin-block-start:0;color:#c2e213}#accordian h4{box-shadow:inset 0 1px 0 0 #9acc85;background:linear-gradient(to bottom,#74ad5a 5%,#68a54b 100%);background-color:#74ad5a;border:1px solid #3f226e;display:block;cursor:pointer;color:#fff;font-size:15px;font-weight:700;text-decoration:none;margin-block-start:0;margin-block-end:0;white-space:nowrap;overflow:hidden;text-overflow:clip}#accordian h4 a{display:block;color:#fff;font-size:17px;font-weight:700;text-decoration:none;line-height:22px}#accordian h4 span{font-size:1em;margin-right:.2em}#accordian h4:hover{text-shadow:0 0 .5em #fff}#accordian h3:hover{text-shadow:0 0 .5em #fff}#accordian h3 span{font-size:1em;margin-right:.5em}#accordian li{list-style-type:none}#accordian ul ul li a{color:#fff;text-decoration:none;font-size:16px;line-height:150%;display:block;white-space:nowrap;overflow:hidden;text-overflow:clip}#partidos{width:60%;margin-left:120px}.bzh,.bgdg,.bvi,.bvi2{box-shadow:inset 0 1px 0 0 #9acc85;background-color:#68a54b;border:1px solid #3b6e22;display:inline-block;cursor:pointer;color:#fff;font-size:.8em;font-weight:700;padding:3px 6px;text-decoration:none;text-shadow:0 2px 2px #000}.bzh i,.bgdg i,.bvi i,.bvi2 i{font-size:15px}.bvi2{box-shadow:inset 0 1px 0 0 #000;background-color:#83002b;border:1px solid #000}.envivo{background:#83002b;color:#fff;font-size:1em;display:block;text-align:center}#cajadia2{width:70%;margin:auto;background:#e5e5e5;text-align:center;color:#000;font-size:.8em}#cajadia{width:95px;float:left;margin-left:5px;background:#e5e5e5;text-align:center;color:#000;font-size:11px}.eldia{background:#81a209;border:1px outset silver;color:#FFF;display:block;font-size:14px;font-weight:700;text-align:center;text-shadow:1px 1px 1px #000}.titulopart{color:#FFF;display:block;font-size:11px;font-weight:700;padding:2px;text-align:center;background:#17573D}#cortar{clear:both;margin-bottom:20px}.game-t1,.game-t2{line-height:1.1em}#accordian ul ul li a:hover{background:#213b0a;border-left:.5em solid #c2e213}#accordian li.active ul{display:block}#accordian h3 li.active ul{background:red}#accordian .items-menu li:nth-child(odd){background-color:#015a1c}#accordian .items-menu li:nth-child(even){background-color:#024817}
+    #fixturein{font-size:.7em;text-align:center;margin-top:10px;}.titucuadros{background:#125e2a;text-align:center;display:block;color:#fff;font-weight:700;border:1px solid #e5e5e5;border-bottom:none;text-shadow:1px 1px 1px #000;font-size:1.1em}.titulo,.titulo2,.titulo3{color:#FFF;display:block;text-align:center;font-weight:700}.titulo2{background:#060d4e}.titulo3{background:#56146f}.falta{width:10%;background:#155219;color:#fff}.myButtonZH2{margin-top:1em}.myButtonZH:hover,.myButtonZH2:hover{background-color:green}#bayer,#bman{float:left;width:20%;background:green;font-size:1em;text-align:center;background-color:#68a54b;border:1px solid #000;margin-bottom:1em;cursor:pointer}#bayer a,#bman a{color:#fff;text-decoration:none;text-shadow:#000 .1em .1em .1em;display:block}#bayer{-webkit-border-top-left-radius:1em;-webkit-border-bottom-left-radius:1em;-moz-border-radius-topleft:1em;-moz-border-radius-bottomleft:1em;border-top-left-radius:1em;border-bottom-left-radius:1em}#bman{-webkit-border-top-right-radius:1em;-webkit-border-bottom-right-radius:1em;-moz-border-radius-topright:1em;-moz-border-radius-bottomright:1em;border-top-right-radius:1em;border-bottom-right-radius:1em}#bayer:hover,#bman:hover{background-color:#00f18d}.correhora{font-size:.8em;color:#ff0;font-weight:700}#titulo1,#titulo2,#titulos{float:left;width:57%;background:green;color:#fff;font-size:1.1em;text-align:center;text-shadow:#000 .1em .1em .1em;background:#125e2a;border:1px solid #000;margin-bottom:1em}#titulo2,#titulos{width:100%;clear:both}#titulos{font-size:23px}.game-r1,.game-r2{width:7%;background:#ffffff9f;font-size:1.6em;font-weight:700;border:1px solid #000;}.game-t1,.game-t2{width:30%;background:#e5e5e55e;white-space:nowrap;overflow:hidden;text-overflow:clip;border:1px solid #000;}.game-tr{width:100%}
+    .game-time,.game-play,.game-sus{width:15%;background:rgb(98, 102, 126);color:#fff;font-size:1.1em;font-weight:700;text-shadow:1px 1px 1px #000;border:1px solid #000;}.game-play{background:#820300}.game-sus{background:#c30404}.game-time img,.game-play img,.game-fin img{width: 20px}.game-fin{width:15%;background:#312d2c;color:#fff;font-size:1em;font-weight:700;text-shadow:1px 1px 1px #000}.game-info{width:5%;background:rgba(98, 102, 126, 0.459);border: 1px solid #000;}.game-info a{display:block;cursor:pointer;color:#fff;margin-bottom:50%;margin-right:50%}#tva{font-size:12px;color:red;float:right;position:absolute}#inf{color:#fff;position:absolute}#tvl{color:#fff;position:absolute;background:red}.game-info .material-icons{position:absolute}.game-table{width:100%}.goles{font-size:12.2px;font-weight:700;background:#fff;border-spacing:0;text-align:left;-webkit-border-horizontal-spacing:2px;-webkit-border-vertical-spacing:2px}.tituloin a{color:#fff;text-decoration:none;font-weight:700;display:block}#cuadros1 a,#cuadros2 a,#cuadros3 a,#cuadros4 a{color:#fff;text-decoration:none;font-size:.7em;font-weight:700}#cuadros1 a{font-size:.8em}#cuadros2{width:19%;float:left;text-align:center;background:#125e2a;border:1px solid #000;text-shadow:1px 1px 1px #000;line-height:.7em;cursor:pointer;box-shadow:inset 0 10px 14px -7px #2f1f1f}#cuadros1{width:40%;float:left;text-shadow:1px 1px 1px #000;color:#fff;background:#125e2a;border:1px solid #000;text-align:center;line-height:.8em;cursor:pointer;box-shadow:inset 0 10px 14px -7px #2f1f1f}#cuadros3{width:19%;float:left;text-shadow:1px 1px 1px #000;color:#fff;background:#125e2a;border:1px solid #000;text-align:center;line-height:.7em;cursor:pointer;box-shadow:inset 0 10px 14px -7px #2f1f1f}#cuadros4{width:19%;float:left;text-shadow:1px 1px 1px #000;color:#fff;background:#125e2a;border:1px solid #000;text-align:center;line-height:.7em;cursor:pointer;box-shadow:inset 0 10px 14px -7px #2f1f1f}#subt{width:8%;float:left;text-align:center;background:#68a54b;color:#e8fff1;text-shadow:1px 1px 1px #000;border:1px solid #3b6e22;font-weight:700;font-size:1.3em;cursor:pointer}#bajt{width:8%;float:left;text-align:center;background:#68a54b;color:#e8fff1;text-shadow:1px 1px 1px #000;border:1px solid #3b6e22;font-weight:700;font-size:1.3em;cursor:pointer}.vervivo{box-shadow:inset 0 1px 0 0 #000;background-color:#ad0040;border:1px solid #000;float:left;cursor:pointer;color:#fff;font-size:.6em;font-weight:700;padding:6px 12px;text-decoration:none;text-shadow:0 2px 2px #000;width:20%;text-align:center;margin:auto}.plive,.pfin,.pemp,.pposta,.psusp,.pdem{background:#e5e5e5;text-align:center}.choy{width:100%;background:#433535;font-size:1.1em;color:#ffffff;text-align:center;font-weight:700}#fixturein table{width:100%;text-align:center}#fixturein table a{display:block}
+    .tituloin{width:100%;background:rgba(115, 71, 216, 0.664);color:#fff;text-align:center;padding-top:1px;color:#fff;font-size:1.3em;text-decoration:none;text-shadow:1px 1px 1px #000;font-weight:700;border:1px solid #000;}.roja{background:red;width:5px;height:5px;margin-top:1px}.rojas1{width:5px;float:left}.rojas2{width:5px;float:right}.rojas1 .roja{margin-left:1px}.rojas2 .roja{margin-left:-1px}.pimp{background:#e5e5e5}.datoequipo{font-size:13.5px;font-weight:700}.goles i{color:#b34;font-style:normal}#cant,#cant2{width:70px;float:left;text-align:center;background:#125e2a;color:#e8fff1;text-shadow:1px 1px 1px #000;border:1px solid #3b6e22;font-weight:700;font-size:1.1em;cursor:pointer;padding:1.4px;box-shadow:inset 0 10px 14px -7px #31a000}#cant2{width:45px;background:#7b000a;box-shadow:inset 0 10px 14px -7px #2f1f1f}#cant:hover{background:#07b940}#cant2:hover{background:red}#fixturein table{border-spacing:1.5px;table-layout:fixed}#abajo{width:100%}.diapart{background:#092B1D;color:#fff;font-size:13px;font-weight:700;text-align:center}
+
+
+
+.btnNav {
+    position: relative;
+    background: url(../assets/img/bandLiga/argentina-fotor-.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/ligaArgentina.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav:focus {
+    outline: none;
+}
+
+.btnNav:active {
+    scale: 0.95;
+}
+
+.btnNav2 {
+    position: relative;
+    background: url(../assets/img/bandLiga/españa.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav2::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/laLiga.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav2::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav2:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav2:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav2:focus {
+    outline: none;
+}
+
+.btnNav2:active {
+    scale: 0.95;
+}
+
+.btnNav3 {
+    position: relative;
+    background: url(../assets/img/bandLiga/inglaterra.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav3::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/premier.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav3::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav3:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav3:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav3:focus {
+    outline: none;
+}
+
+.btnNav3:active {
+    scale: 0.95;
+}
+
+.btnNav4 {
+    position: relative;
+    background: url(../assets/img/bandLiga/italia.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav4::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/serieA.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav4::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav4:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav4:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav4:focus {
+    outline: none;
+}
+
+.btnNav4:active {
+    scale: 0.95;
+}
+
+.btnNav5 {
+    position: relative;
+    background: url(../assets/img/bandLiga/conmebol-fotor-4.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav5::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/libertadores-fotor-2.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav5::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav5:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav5:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav5:focus {
+    outline: none;
+}
+
+.btnNav5:active {
+    scale: 0.95;
+}
+
+
+.btnNav6 {
+    position: relative;
+    background: url(../assets/img/bandLiga/uefa-logo-fotor-20230820141118.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav6::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/champions2-fotor-20230820141048.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav6::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav6:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav6:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav6:focus {
+    outline: none;
+}
+
+.btnNav6:active {
+    scale: 0.95;
+}
+
+li{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-link{
+    margin: 0%;
+    padding: 0%;
 }
