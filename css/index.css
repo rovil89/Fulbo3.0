@@ -571,13 +571,12 @@ li{
 
 .botongral1 {
     width:40%;
-    background:rgba(98, 102, 126, 0.349);
     color:#fff;
     font-size:1.1em;
     font-weight:700;
     text-shadow:1px 1px 1px #000;
     border:1px solid #000;
-    background-color: rgb(98, 102, 126);
+    background-color: rgba(98, 102, 126, 0.616);
     border: 1px solid #000;
     display: inline-block;
     cursor: pointer;
