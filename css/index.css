@@ -170,3 +170,402 @@ body{width: 50%;;margin:auto;background:url(../assets/img/pasto.jpg);background-
 .pin{font-size:16px}
 .pen{font-size:14px;color:red}.cancha{background:#c4564e;color:#fff;font-size:11px;font-weight:700}#clubseccion{text-align:center;font-size:16px;background:#00612d;color:#fff;border:1px solid #000;width:100%;text-shadow:1px 1px 1px #000}#clubseccion i{color:#ff0;font-size:15px}.titulo{font-size:1.4em}.letrach{font-size:.8em}.clubder{width:47%;margin-left:3%;float:left}.clubizq{width:47%;margin-left:3%;float:left}#verficha{box-shadow:inset 0 1px 0 0 #9acc85;background-color:#68a54b;border:1px solid #3b6e22;display:inline-block;cursor:pointer;padding:1.5px;text-align:center;padding-left:4px;padding-right:4px}a #verficha{font-size:14px;color:#fff;text-shadow:1px 1px 1px #000;text-decoration:none}#verficha:hover{background-color:#3aa507}#fixclub{width:380px;float:left;margin-left:12px}#fixclub .md-18{font-size:20px}#fixclub a{display:block;color:green}.fixclub{width:380px;font-size:.9em;text-align:center}.fixclub tr td:nth-child(4){text-align:left}.fixclub tr td:nth-child(3){font-weight:700}.fixclub th{color:#fff;background:#000}.fixclub .loc{background:#e5e5e5}.fixclub .vis{background:#d5d5d5}.fixclub .vic,#historial .vic{background:green;color:#fff;font-size:1em;font-weight:700}.fixclub .perd,#historial .perd{background:red;color:#fff;font-size:1em;font-weight:700}.fixclub .emp,#historial .emp{background:#ffeb3b;color:#000;font-size:1em;font-weight:700}#tabplantel{width:380px;font-size:14px;background:#a6a2a2}.arq,.def,.med,.del,.tec{font-size:12px;text-align:center;background:#000}.arq{color:#dddd4c}.def{color:#8dddd2}.med{color:#9bd048}.del{color:#e39a86}.tec{color:#fff;font-weight:700}#tabplantel i{font-size:11px;font-style:normal}#tabplantel tr:nth-child(even){background:#d5d5d5;color:#000}#tabplantel tr:nth-child(odd){background:#e5e5e5;color:#000}#tabplantel tr:nth-child(odd) td:nth-child(3){text-align:center}#tabplantel tr:nth-child(even) td:nth-child(1){text-align:center}#tabplantel .jugador{font-weight:700}#tabhist{width:380px;float:left;margin-top:20px;margin-left:20px}#tabhist table{width:380px}#tabhist td{font-size:12.5px}#tabhist #posiciones td:nth-child(2){text-align:left}#tabhist #posiciones tr:nth-child(even){background:#e5e5e5}#tabhist #posiciones tr:nth-child(odd){background:#d5d5d5}#divcuadro{background:#1c3a1c;color:#fff;width:600px;margin:auto;font-size:11.5px}.contenedorfecha{width:190px;float:left;margin-left:10px;background:#efefef;font-size:11px;margin-top:10px}.golcal{width:50px}.golcal input{width:15px;font-size:14px;font-weight:700}.listafecha{width:190px;table-layout:fixed}.listafecha td{white-space:nowrap;overflow:hidden;text-overflow:clip}.listafecha td:nth-child(2),.listafecha td:nth-child(4){width:20px}.listafecha td:nth-child(1),.listafecha td:nth-child(5){width:40px}.quefecha{background:#000;color:#fff;font-size:12px;text-align:center}#botonescalc{width:380px;float:left;margin-left:10px}.botoncalc{width:200px;margin:auto;margin-top:10px;background:orange;color:#000;text-align:center;font-size:11px;font-weight:700;cursor:pointer}.terminado{background:#a5a5a5}.verdeosc{background:#134830}.botlink,.botlink2{text-align:center;font-size:16px}.botlink a,.botlink2 a{text-decoration:none;color:#c2e213;font-size:16px}.botlink2 a{font-size:12px}#botlink3{margin:auto;width:100px;height:35px;background:url(../images/seguinos.png)}#botlink3 #part1,#botlink3 #part2,#botlink3 #part3{display:table-cell;width:100px;height:35px}#historialpart{width:100%}.terminado{background:#a5a5a5}#historialpart{width:400px;margin:auto}.verdeosc{background:#134830}.eqshis{font-size:14px;width:187px;color:#fff;float:left;height:380px;background:#00612d;margin-left:10px;margin-top:10px;text-align:center;border:1px solid #000;text-shadow:1px 1px 1px #000}.chistorial{font-weight:400;font-size:14px;text-shadow:none}.chistorial i{font-weight:700;font-size:15px;color:#ff0;font-style:normal}.chistorial strong{color:#efcc64;text-shadow:1px 1px 1px #000}#clubhist{background:#2e5942;float:left;width:196px;font-size:14px;margin-left:2px;margin-top:2px;text-align:center;text-shadow:1px 1px 1px #000}#clubhist a{text-decoration:none;color:#fff;display:block}#tablahistorial{width:380px;float:left;font-size:1.1em}#historial{font-size:.9em;width:380px;text-align:center}#historial tr:nth-child(odd){background:#d5d5d5}#historial tr:nth-child(even){background:#e5e5e5;background:#e5e5e5}#historial td:nth-child(1){font-weight:700;text-align:left}#historial tr{overflow:hidden;text-overflow:clip;white-space:nowrap;max-width:120px}#historial tr td a{color:green}#maxgoleadas{width:400px;float:left;margin-left:15px}#rankint{width:480px;float:left}#rankint table{width:480px;font-size:1em}#rankint th{color:#fff;background:#000}#rankint i{font-size:.9em}#rankint tr:nth-child(even){background:#e5e5e5}#rankint tr:nth-child(odd){background:#d5d5d5}#rankint tr td{text-align:center}#rankint tr td:nth-child(1){text-align:center;font-weight:700;font-size:14px}#rankint tr td:nth-child(2){text-align:center;font-weight:700;font-size:1.5em}.veb,.vpb,.vgb{background:#ff0;border:.5px solid;float:left;margin-top:10px;width:5px;height:5px;border-radius:50%}.vpb{background:red}.vgb{background:#0af30a}#cajacomentarios{width:550px;float:left}#elcomentario{background:#EDEDED;margin-bottom:5px;margin-top:5px;width:100%;font-size:.9em;display:flex}.nombreyclub{background:#e0e0e0;float:left;font-size:1em;font-weight:700;margin-right:10px;padding:5px;text-align:center;width:20%;white-space:nowrap;overflow:hidden;text-overflow:clip}.vote{color:#000;text-decoration:none}.mensaje{width:75%;overflow:hidden;text-overflow:clip;font-size:1.1em}.up{margin-top:3px;cursor:pointer}.fechayhora{font-size:.7em}#cajatexto{float:left;width:220px;margin-left:20px;font-size:.9em;text-align:center;color:#fff;text-shadow:1px 1px 1px #000;background:#125e2a;padding-top:20px;padding-bottom:20px}#comentario{color:#000;font-size:1.1em;width:200px;height:100px}.reg{background:#2c5e59;border:1px solid #000;padding-top:2px;padding-bottom:4px}.reg a{display:block;color:#fff;text-decoration:none;text-shadow:1px 1px 1px #000;font-weight:700}.paginacion{width:100%;text-align:center;color:#fff}.paginacion a{color:#C2E213;text-decoration:none}.up .material-icons{font-size:16px}.dedoar{color:green}.dedoab{color:#861913}.switch{position:relative;display:inline-block;width:33px;height:22px}.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;border-radius:30px}.slider2{position:absolute;content:"";height:20px;width:20px;left:1px;bottom:1px;background-color:#fff;border-radius:30px}.slider3{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#72ab57;border-radius:30px}.slider4{position:absolute;content:"";height:20px;width:20px;left:12px;bottom:1px;background-color:#fff;border-radius:30px}#adv{background:#bb0040;color:#fff;text-align:center;font-size:16px;font-weight:700}ul{padding-inline-start:3px}#pub728{margin:auto;width:728px;height:90px}
 thead th {font-size:0.85em}
+/* .btnNav{
+    border-radius: 10%;
+    margin: 5px;
+    padding: 0%;
+    background-color: #00ced16b;
+    color: wheat;
+} */
+
+.btnNav {
+    position: relative;
+    background: url(../assets/img/bandLiga/españa.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/laLiga.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav:focus {
+    outline: none;
+}
+
+.btnNav:active {
+    scale: 0.95;
+}
+
+.btnNav2 {
+    position: relative;
+    background: url(../assets/img/bandLiga/inglaterra.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav2::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/premier.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav2::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav2:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav2:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav2:focus {
+    outline: none;
+}
+
+.btnNav2:active {
+    scale: 0.95;
+}
+
+.btnNav3 {
+    position: relative;
+    background: url(../assets/img/bandLiga/italia.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav3::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/serieA.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav3::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav3:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav3:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav3:focus {
+    outline: none;
+}
+
+.btnNav3:active {
+    scale: 0.95;
+}
+
+.btnNav4 {
+    position: relative;
+    background: url(../assets/img/bandLiga/eeuu-fotor.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav4::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/mls-fotor.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav4::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav4:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav4:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav4:focus {
+    outline: none;
+}
+
+.btnNav4:active {
+    scale: 0.95;
+}
+
+.btnNav5 {
+    position: relative;
+    background: url(../assets/img/bandLiga/conmebol-fotor-4.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav5::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/libertadores-fotor-2.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav5::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav5:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav5:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav5:focus {
+    outline: none;
+}
+
+.btnNav5:active {
+    scale: 0.95;
+}
+
+
+.btnNav6 {
+    position: relative;
+    background: url(../assets/img/bandLiga/uefa-logo-fotor-20230820141118.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 5px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav6::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/champions2-fotor-20230820141048.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav6::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav6:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav6:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav6:focus {
+    outline: none;
+}
+
+.btnNav6:active {
+    scale: 0.95;
+}
+
