@@ -608,7 +608,7 @@ background-color: #56146f
     color:#fff;
     font-size:1.1em;
     font-weight:700;
-    text-shadow:1px 1px 1px #ffffff;
+    text-shadow:1px 1px 1px #000;
     border:1px solid #000;
     background-color: rgba(98, 102, 126, 0.616);
     border: 1px solid #000;
@@ -631,6 +631,10 @@ background-color: #56146f
 
 .botongral2:hover{
 background-image: url(../assets/img/dolares.jpg);
+color:#000;
+font-size:1.1em;
+font-weight:700;
+text-shadow:1px 1px 1px #ffffff;
 }
 
 h2{
