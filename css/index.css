@@ -632,3 +632,57 @@ background-color: #56146f
 .botongral2:hover{
 background-image: url(../assets/img/dolares.jpg);
 }
+
+h2{
+    width:100%;
+    justify-content: start;
+    align-items: start;
+    color:#fff;
+    font-size:1.1em;
+    font-weight:700;
+    text-shadow:1px 1px 1px #0a0a0a;
+    border:1px solid #000;
+    background-color: rgba(98, 102, 126, 0.616);
+    border: 1px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0px;
+    line-height: 1em;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+
+h3{
+
+    width:100%;
+    justify-content: start;
+    align-items: start;
+    color:#fff;
+    font-size:1.1em;
+    font-weight:700;
+    text-shadow:1px 1px 1px #0a0a0a;
+    border:1px solid #000;
+    background-color: rgba(98, 102, 126, 0.616);
+    border: 1px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0px;
+    line-height: 1em;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.dolar{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
