@@ -683,6 +683,6 @@ h3{
 
 .dolar{
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }
