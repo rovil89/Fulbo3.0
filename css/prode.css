@@ -1,0 +1,470 @@
+ul{padding-inline-start:5px;padding-left:2px}
+.banner img{max-width:50%}
+body{width: 50%;;margin:auto;background:url(../assets/img/pasto.jpg);background-size:cover;
+    background-attachment:fixed ;font-family:Roboto,sans-serif,Arial,Helvetica;text-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}
+
+.btnNav {
+    position: relative;
+    background: url(../assets/img/bandLiga/españa.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 2px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/laLiga.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav:focus {
+    outline: none;
+}
+
+.btnNav:active {
+    scale: 0.95;
+}
+
+.btnNav2 {
+    position: relative;
+    background: url(../assets/img/bandLiga/inglaterra.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 2px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav2::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/premier.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav2::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav2:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav2:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav2:focus {
+    outline: none;
+}
+
+.btnNav2:active {
+    scale: 0.95;
+}
+
+.btnNav3 {
+    position: relative;
+    background: url(../assets/img/bandLiga/italia.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 2px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav3::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/serieA.png);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav3::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav3:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav3:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav3:focus {
+    outline: none;
+}
+
+.btnNav3:active {
+    scale: 0.95;
+}
+
+.btnNav4 {
+    position: relative;
+    background: url(../assets/img/bandLiga/eeuu-fotor.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 2px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav4::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/mls-fotor.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav4::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav4:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav4:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav4:focus {
+    outline: none;
+}
+
+.btnNav4:active {
+    scale: 0.95;
+}
+
+.btnNav5 {
+    position: relative;
+    background: url(../assets/img/bandLiga/conmebol-fotor-4.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 2px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav5::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/libertadores-fotor-2.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav5::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav5:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav5:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav5:focus {
+    outline: none;
+}
+
+.btnNav5:active {
+    scale: 0.95;
+}
+
+
+.btnNav6 {
+    position: relative;
+    background: url(../assets/img/bandLiga/uefa-logo-fotor-20230820141118.jpg);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 2px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav6::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/champions2-fotor-20230820141048.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav6::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav6:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav6:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav6:focus {
+    outline: none;
+}
+
+.btnNav6:active {
+    scale: 0.95;
+}
+
+.btnNav7 {
+    position: relative;
+    background: url(../assets/img/bandLiga/argentina-fotor-.png);
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    margin: 2px;
+    padding: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav7::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background:url(../assets/img/bandLiga/ligaArgentina.jpg);
+    transform: translate(0%,100%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+.btnNav7::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../assets/img/españaBig-fotor.jpg); */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btnNav7:hover::before {
+    transform: translate(0%,0%);
+}
+
+.btnNav7:hover::after {
+    transform: translate(0%,-200%);
+}
+
+.btnNav7:focus {
+    outline: none;
+}
+
+.btnNav7:active {
+    scale: 0.95;
+}
+
+li{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-link{
+    margin: 0%;
+    padding: 0%;
+}
