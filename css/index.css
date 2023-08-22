@@ -570,7 +570,8 @@ li{
 }
 
 .botongral1 {
-    width:100%;
+    width:45%;
+    display: flex;
     justify-content: center;
     align-items: center;
     color:#fff;
@@ -595,6 +596,9 @@ li{
 .r1{
     text-decoration:none;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botongral1:hover{
@@ -602,7 +606,8 @@ background-color: #56146f
 }
 
 .botongral2 {
-    width:100%;
+    width:45%;
+    display: flex;
     justify-content: center;
     align-items: center;
     color:#fff;
@@ -627,6 +632,9 @@ background-color: #56146f
 .r2{
     text-decoration:none;
     color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botongral2:hover{
@@ -646,7 +654,7 @@ h2{
     font-weight:700;
     text-shadow:1px 1px 1px #0a0a0a;
     border:1px solid #000;
-    background-color: rgba(98, 102, 126, 0.616);
+    background-color: rgba(8, 99, 49, 0.548);
     border: 1px solid #000;
     display: inline-block;
     padding: 5px;
@@ -661,7 +669,6 @@ h2{
 }
 
 h3{
-
     width:100%;
     justify-content: start;
     align-items: start;
@@ -670,7 +677,7 @@ h3{
     font-weight:700;
     text-shadow:1px 1px 1px #0a0a0a;
     border:1px solid #000;
-    background-color: rgba(98, 102, 126, 0.616);
+    background-color: rgba(8, 99, 49, 0.548);
     border: 1px solid #000;
     display: inline-block;
     padding: 5px;
@@ -683,8 +690,10 @@ h3{
     margin: 2px;
 }
 
-.dolar{
+.dolar1{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 35%;
+    margin-left: 32%;
 }
